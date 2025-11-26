@@ -1,21 +1,22 @@
 .back-link {
   position: relative;
   display: inline-block;
-  padding: 4px 8px;
+  padding: 8px 16px;
   /* margin-top: 32px; */
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 8px;
-  background-color: #000;
+  background-color: transparent;
+  /* background-color: #000; */
   color: #ff9000;
-  font-weight: 500;
+  font-weight: 600;
 }
 .back-link::before {
   content: '';
   position: absolute;
   top: 50%;
-  left: 0;
-  width: 16px;
-  height: 16px;
+  right: -35%;
+  width: 20px;
+  height: 20px;
 
   background-repeat: no-repeat;
   background-position: center;

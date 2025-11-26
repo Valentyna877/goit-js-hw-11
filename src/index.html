@@ -2,28 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Tenth JS Homework</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <main>
-      <div class="container">
-        <h1 class="main-title">
-          <span class="main-title-gradient">Welcome</span>
-        </h1>
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link" href="./1-timer.html">Timer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./2-snackbar.html">Snackbar</a>
-          </li>
-        </ul>
-      </div>
+      <section>
+        <div class="container">
+          <form class="form" novalidate>
+            <a class="back-link" href="./index.html">Find your vibe</a>
+            <label>
+              <input
+                type="text"
+                name="search-text"
+                placeholder="Search images..."
+                required
+              />
+            </label>
+            <button type="submit">Search</button>
+          </form>
+          <span
+            class="loader hidden"
+            aria-live="polite"
+            aria-busy="false"
+          ></span>
+          <ul class="gallery"></ul>
+          <button type="button" id="scrollToTopBtn" title="Go to top">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="60"
+              height="60"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 12a.5.5 0 0 0 .5-.5V5.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4-.007-.007a.5.5 0 0 0-.7.007l-4 4a.5.5 0 1 0 .708.708L7.5 5.707V11.5A.5.5 0 0 0 8 12z"
+              />
+            </svg>
+          </button>
+        </div>
+      </section>
     </main>
-    <load src="./partials/footer.html" />
     <script type="module" src="./main.js"></script>
   </body>
 </html>

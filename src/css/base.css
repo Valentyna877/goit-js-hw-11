@@ -6,8 +6,27 @@
   line-height: 1.5;
   font-weight: 400;
   color: #242424;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   /* background-color: rgba(255, 255, 255, 0.87); */
+  /* background: linear-gradient(135deg, #f0f4ff, #dbe6f6); */
+  /* background: linear-gradient(120deg, #ff9000, #ed8540, #f2ba83); */
+  /* background-color: #f2ba83; */
+  /* background: linear-gradient(135deg, #fab802, #f2ba83); */
+  /* background: linear-gradient(135deg, #f2ba83, #fafafd, #f2ba83); */
+  /* background-image: linear-gradient(120deg, #ff9000 0%, #f2ba83 100%); */
+  /* background: linear-gradient(135deg, #fff4e6, #ffe0cc); */
+  /* background: linear-gradient(135deg, #ffd8a8, #ffc078); */
+  /* background: linear-gradient(135deg, #ffecd1, #ffb347); */
+  /* background: linear-gradient(135deg, #fff0d6, #ffd699); */
+  /* background: #FFDAB9; */
+  /* background: #ffe9d6; */
+  /* background: #fff4e6; */
+  /* background: #ffdab0; */
+  /* background: linear-gradient(135deg,#ffe0c2, #fff0db); */
+  /* background: #ffd8b1; */
+  /* background: #ffe0c2; */
+  /* background-color: #fff0db; */
+  background-color: #E6E6FA;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
